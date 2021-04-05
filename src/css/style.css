@@ -1,0 +1,48 @@
+
+
+.collapse {
+    padding: 10px;
+    overflow: hidden;
+    height: 35px;
+    transition: height 1500ms ease-in;
+
+  }
+  
+  .collapse.active {
+    height: 250px;
+  }
+  
+  .collapseButton {
+  padding: 10px;
+    background-color: #5187ff;
+    color: #fff;
+    width: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .collapseButton:hover {
+    background-color: #5187ff;
+    box-shadow: 10px 5px 5px #1b3368;
+    
+  }
+  
+  .collapseContainer {
+    width: 50%;
+    transition-property: all;
+    padding: 0 18px;
+    max-height: 200px;
+    overflow: hidden;
+    padding: 0;
+}
+  .collapseText {
+    border: 1px solid #aaa;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: .4rem;
+    color: #444;
+   
+
+  }
+  
